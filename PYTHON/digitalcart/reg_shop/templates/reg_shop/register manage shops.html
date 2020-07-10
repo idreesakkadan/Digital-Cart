@@ -1,0 +1,38 @@
+{% extends 'temp/base.html' %}
+{% block base %}
+	<form method="post">
+        {% csrf_token %}
+        <h1><center>REGISTER SHOPS</center></h1>
+		<table align="center">
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id" class="form-control" placeholder="SHOP ID"></td>
+			</tr>
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="name" class="form-control" placeholder="NAME"></td>
+			</tr>
+			<tr>
+				<td>ADDRESS</td>
+				<td><textarea name="address" class="form-control" placeholder="ADDRESS"></textarea></td>
+			</tr>
+			<tr>
+				<td>CONTACT</td>
+				<td><input type="text" name="contact" class="form-control" placeholder="CONTACT NUMBER"></td>
+			</tr>
+			<tr>
+				<td>EMAIL</td>
+				<td><input type="email" name="email" class="form-control" placeholder="EMAIL ID"></td>
+			</tr>
+			<tr>
+				<td>PASSWORD</td>
+				<td><input type="password" name="password" class="form-control" placeholder="*******"></td>
+			</tr>
+			<tr>
+                <td></td>
+				<td><input type="submit" name="register" value="REGISTER"></td>
+			</tr>
+		</table>
+	</form>
+
+{% endblock %}

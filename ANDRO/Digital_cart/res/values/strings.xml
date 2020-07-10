@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Digital_Cart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_u_view_shops_and_sections">U_view_shops_and_sections</string>
+    <string name="title_activity_u_search_product">U_search_product</string>
+    <string name="title_activity_u_view_product_details">U_view_product_details</string>
+    <string name="title_activity_u_view_offers">U_view_offers</string>
+    <string name="title_activity_u_book_product_and_view_response">U_book_product_and_view_response</string>
+    <string name="title_activity_u_add_review_for_the_product">U_add_review_for_the_product</string>
+    <string name="title_activity_u_add_rating_for_delivery_boy">U_add_rating_for_delivery_boy</string>
+    <string name="title_activity_u_payment">U_payment</string>
+    <string name="title_activity_u_view_helpline_number">U_view_helpline_number</string>
+    <string name="title_activity_u_tracking_delivery_boy">U_tracking_delivery_boy</string>
+    <string name="title_activity_u_post_complaint_and_view_reply">U_post_complaint_and_view_reply</string>
+    <string name="title_activity_s_update_profile">S_update_profile</string>
+    <string name="title_activity_s_add_product_details">S_add_product_details</string>
+    <string name="title_activity_s_add_sections">S_add_sections</string>
+    <string name="title_activity_s_add_offers">S_add_offers</string>
+    <string name="title_activity_s_view_book_and_response">S_view_book_and_response</string>
+    <string name="title_activity_s_assign_work_to_delivery_boy">S_assign_work_to_delivery_boy</string>
+    <string name="title_activity_s_view_status_of_assigned_work">S_view_status_of_assigned_work</string>
+    <string name="title_activity_s_product_payment_details">S_product_payment_details</string>
+    <string name="title_activity_s_view_product_review">S_view_product_review</string>
+    <string name="title_activity_s_view_rating_of_delivery_boy">S_view_rating_of_delivery_boy</string>
+    <string name="title_activity_d_update_status">D_update_status</string>
+    <string name="title_activity_shop_home">Shop_home</string>
+    <string name="title_activity_delivery_boy_home">Delivery_boy_home</string>
+    <string name="title_activity_user_home">User_home</string>
+    <string name="title_activity_login">Digital_Cart</string>
+    <string name="title_activity_u_register">U_register</string>
+    <string name="title_activity_u_view_sections">U_view_sections</string>
+
+</resources>

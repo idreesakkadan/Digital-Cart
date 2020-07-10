@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digital_cart"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iccc"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.digital_cart.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_view_shops_and_sections"
+            android:label="@string/title_activity_u_view_shops_and_sections" >
+           
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_search_product"
+            android:label="@string/title_activity_u_search_product" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_view_product_details"
+            android:label="@string/title_activity_u_view_product_details" >
+             
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_view_offers"
+            android:label="@string/title_activity_u_view_offers" >
+            
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_book_product_and_view_response"
+            android:label="@string/title_activity_u_book_product_and_view_response" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_add_review_for_the_product"
+            android:label="@string/title_activity_u_add_review_for_the_product" >
+           
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_add_rating_for_delivery_boy"
+            android:label="@string/title_activity_u_add_rating_for_delivery_boy" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_payment"
+            android:label="@string/title_activity_u_payment" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_view_helpline_number"
+            android:label="@string/title_activity_u_view_helpline_number" >
+             
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_tracking_delivery_boy"
+            android:label="@string/title_activity_u_tracking_delivery_boy" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_post_complaint_and_view_reply"
+            android:label="@string/title_activity_u_post_complaint_and_view_reply" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_update_profile"
+            android:label="@string/title_activity_s_update_profile" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_add_product_details"
+            android:label="@string/title_activity_s_add_product_details" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_add_sections"
+            android:label="@string/title_activity_s_add_sections" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_add_offers"
+            android:label="@string/title_activity_s_add_offers" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_view_book_and_response"
+            android:label="@string/title_activity_s_view_book_and_response" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_assign_work_to_delivery_boy"
+            android:label="@string/title_activity_s_assign_work_to_delivery_boy" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_view_status_of_assigned_work"
+            android:label="@string/title_activity_s_view_status_of_assigned_work" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_product_payment_details"
+            android:label="@string/title_activity_s_product_payment_details" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_view_product_review"
+            android:label="@string/title_activity_s_view_product_review" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.S_view_rating_of_delivery_boy"
+            android:label="@string/title_activity_s_view_rating_of_delivery_boy" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.D_update_status"
+            android:label="@string/title_activity_d_update_status" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.Shop_home"
+            android:label="@string/title_activity_shop_home" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.Delivery_boy_home"
+            android:label="@string/title_activity_delivery_boy_home" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.User_home"
+            android:label="@string/title_activity_user_home" >
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.Login"
+            android:label="@string/title_activity_login" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_register"
+            android:label="@string/title_activity_u_register" >
+          
+        </activity>
+        <activity
+            android:name="com.example.digital_cart.U_view_sections"
+            android:label="@string/title_activity_u_view_sections" >
+        </activity>
+    </application>
+
+</manifest>

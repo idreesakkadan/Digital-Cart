@@ -1,0 +1,27 @@
+{% extends 'temp/base.html' %}
+{% block base %}
+<table align="center" class="table">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>NUMBER</th>
+        <th>EMAIL</th>
+        <th>UPDATE</th>
+        <th>DELETE</th>
+    </tr>
+    {% if objval %}
+        {% for ob in objval %}
+        <tr>
+            <td>{{ ob.id }}</td>
+            <td>{{ ob.name}}</td>
+            <td>{{ ob.number }}</td>
+            <td>{{ ob.email }}</td>
+            <td><a href="{% url 'add' cid=ob.id %}">update</a> </td>
+            <td><a href="{% url 'delete' cid=ob.id %}">delete</a> </td>
+
+        </tr>
+        {% endfor %}
+        {% endif %}
+</table>
+    <a href="http://127.0.0.1:8000/reg_manage_d_boy/reg" class="btn btn-info">ADD</a>
+{% endblock %}
